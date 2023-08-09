@@ -41,7 +41,7 @@ The functionality of this page is similar to the calling page, except the user n
 - They are ahead in the hand
 - What is the maximum value bet they can make. In other words, up to what amount is the opponent indifferent to calling or folding.  Note that if the user is behind, this is impossible (there is negative EV for the user, hence they should not raise… unless they are trying to bluff!)
 
-Example usage:
+Example usage (note that for this example, I'm using the opponent's position instead of range to demonstrate that both could be used. The grey text inside the box is placeholder so the user knows acceptable format).
 
 ![Screen Shot 2023-08-09 at 6 58 08 PM](https://github.com/munteanue1234/pokergtosolver/assets/90631000/4ab9cfb3-03a1-45ea-af1a-1b48c7c3a831)
 
