@@ -4,7 +4,7 @@
 
 When I was learning how to play poker “optimally”, I was having trouble finding simple (and free!) poker solvers that would help give me advice. All poker solvers I could find were on two extremes: extremely complex, paid and robust poker solvers, which were more like poker trainers, and very run-down, old, poker solvers that were really just equity calculators. I decided to build a very simple game theory optimal (GTO) Poker Solver that gives general advice to players based on their cards, table cards, position, and opponent range/cards. This is NOT a poker trainer -- it will not tell players how to act at any given circumstance -- but more a tool that could be used by players to understand if the move they are thinking of doing is a mathematically sound one. In other words, it helps them answer: “in a perfect world, would this move make me money?” Technically speaking, this tool helps users maximize their long run expected value playing poker. This tool will not do the work for the user, but will rather supplement their game.
 
-#Tech Stack Overview
+# Tech Stack Overview
 
 The frontend of this project was done in TypeScript, React and Remix. Remix has a lot of boilerplate, most of which is not here for the sake of readability. The backend, including the monte-carlo simulations and equity calculations, are done in Python. The backend Python server is done using Flask. 
 
