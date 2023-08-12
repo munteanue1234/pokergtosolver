@@ -1,5 +1,9 @@
 # Simple Poker GTO Solver
 
+**Important Note**: the default plan of service I'm using to make the backend public (PythonAnywhere) only allows 1 Core, meaning multiprocessing is not effective at speeding the deployed version of this app up. Therefore, equity calculations, particularly range vs range calculations, are slower than they would be. To see how multiprocessing was used, see usage of Python's multiprocessing module in main.py
+
+Find it here: https://pokergto.onrender.com/
+
 # Overview
 
 When I was learning how to play poker “optimally”, I was having trouble finding simple (and free!) poker solvers that would help give me advice. All poker solvers I could find were on two extremes: extremely complex, paid and robust poker solvers, which were more like poker trainers, and very run-down, old, poker solvers that were really just equity calculators. I decided to build a very simple game theory optimal (GTO) Poker Solver that gives general advice to players based on their cards, table cards, position, and opponent range/cards. This is NOT a poker trainer -- it will not tell players how to act at any given circumstance -- but more a tool that could be used by players to understand if the move they are thinking of doing is a mathematically sound one. In other words, it helps them answer: “in a perfect world, would this move make me money?” Technically speaking, this tool helps users maximize their long run expected value playing poker. This tool will not do the work for the user, but will rather supplement their game.
