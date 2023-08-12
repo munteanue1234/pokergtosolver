@@ -2,6 +2,8 @@
 
 **Important Note**: the default plan of service I'm using to make the backend public (PythonAnywhere) only allows 1 Core, meaning multiprocessing is not effective at speeding the deployed version of this app up. Therefore, equity calculations, particularly range vs range calculations, are slower than they would be. To see how multiprocessing was used, see usage of Python's multiprocessing module in main.py
 
+I've also found that the URL may take some time to load initially.
+
 Find the deployed version here: https://pokergto.onrender.com/
 
 # Overview
