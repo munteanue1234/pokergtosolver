@@ -8,6 +8,8 @@ When I was learning how to play poker “optimally”, I was having trouble find
 
 The frontend of this project was done in TypeScript, React and Remix. Remix has a lot of boilerplate, most of which is not here for the sake of readability. The backend, including the monte-carlo simulations and equity calculations, are done in Python. The backend Python server is done using Flask. 
 
+The .tsx files contain the main logic of the App. The misc folder contains important UI utlity and processing utility for user input. The backend folder contains the Python and Flask app, including the Monte-Carlo simulations and equity calculations. 
+
 # Elements
 
 Here is how the home screen looks:
