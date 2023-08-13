@@ -44,11 +44,11 @@ The most simple part of the application is opening. The rule of thumb in poker i
 
 If the user is facing a raise, users can input any available table cards (or none, if there are none). They can then input either the opponent’s position, or a custom range (if they know the opponent and can pin them on a range themselves. This range can also be composed of individual hands, if they can put the opponent on several hands). This is used for calculating the user’s equity against the opponent’s range. This equity calculation is then used to determine if the user should call using pot odds. Using the pot information (pot and raise), we can calculate pot odds, and determine if the user should call (if the equity against the opponent makes calling a profitable long run decision).
 
+*Important note*: In my case, I’m considering a draw (chop pot) as part of user equity.
+
 Example Input:
 
 ![Screen Shot 2023-08-11 at 8 08 09 PM](https://github.com/munteanue1234/pokergtosolver/assets/90631000/e8b34074-738a-4bda-a1ca-c5a3089dbdad)
-
-*Important note*: In my case, I’m considering a draw (chop pot) as part of user equity.
 
 ## Raising
 
