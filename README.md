@@ -83,4 +83,5 @@ Very rarely do players, particularly novices, play GTO poker. Poker is very much
 
 # Improvements/Next Steps
 - Vary ranges based on format (tournament, cash games, etc.)
+- Implement 3-betting+ recommendations (re-raising)
 - Implement some psychological element weight (playstyle of opponent, for example)
