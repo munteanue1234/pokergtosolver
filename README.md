@@ -80,6 +80,7 @@ The user can then use the break even percentange, their true equity against the 
 Very rarely do players, particularly novices, play GTO poker. Poker is very much a human game, and there is a lot more that goes into being a winning player than GTO plays. As for this specific tool, note that there is a tradeoff between simplicity and accuracy. More robust poker solvers, such as paid versions online, would be able to consider a multitude of other factors (opponent playing style, table format, more specific position) to give more accurate advice. Therefore, this poker tool is far from the key to being a winning player. Again, I designed it to be a supplement to players, particularly those who are learning, and it should be used as such.
 
 # Improvements/Next Steps
+- Route protections against URL tampering
 - Vary ranges based on format (tournament, cash games, etc.)
 - Implement 3-betting+ recommendations (re-raising)
 - Implement some psychological element weight (playstyle of opponent, for example)
